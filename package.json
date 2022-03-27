@@ -1,0 +1,22 @@
+{
+  "name": "botapms",
+  "version": "1.0.0",
+  "description": "bot for my company",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndreaAPMS/APMSBOT.git"
+  },
+  "author": "andrea pesci",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AndreaAPMS/APMSBOT/issues"
+  },
+  "homepage": "https://github.com/AndreaAPMS/APMSBOT#readme",
+  "dependencies": {
+    "telegraf": "^4.7.0"
+  }
+}

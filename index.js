@@ -4,12 +4,20 @@ bot.start((context) => {
 	console.log('Servizio avviato...')
 	context.reply('Servizio ECHO avviato')
 })
+bot.hears('Ciao',context => {
+	console.log (context)
+	context.reply('Ciao '+context.update.message.from.first_name+' '+context.update.message.from.last_name)
+})
+/*
 bot.on('text', context=>{
 	text=context.update.message.text
   	context.reply('Hai scritto: '+text)
-	  context.reply (context.update.message.from)
+	context.reply (context.update.message.from.name)
+	
 })
+*/
 bot.launch() 
+
 /*
 
 const { Telegraf } = require('telegraf')
